@@ -1,4 +1,4 @@
-# Arduino_Library_ADS1114_16Bit_2Channel_ADC
+
 [![ADS1114](ADS1114_I2C.png)](https://store.ncd.io/product/ads1114-16-bit-2-channel-precision-analog-to-digital-converter-i2c-mini-module/).
 
 # ADS1114
