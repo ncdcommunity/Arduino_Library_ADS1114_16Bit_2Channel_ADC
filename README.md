@@ -26,6 +26,17 @@ Applications
 
 
 ## Arduino
+ADS1114 :
+ADS1114 is a 2 Channel 16 bit resolution Analog to digital Converter. This ADC can be used as dual single ended analog to digital converter, signal channel differential analog to digital converter or single channel comparator. 
+The ADC board has 2 address jumpers, whihc can be used to set upto 4 different I2C addresses. 
+Applications
+• Force, flex, weight measurement devices
+• Battery Voltage and Current Monitoring
+• Temperature Measurement Systems
+• Factory Automation and Process Control
+
+
+## Arduino
 Download and install Arduino Software (IDE) on your machine. Steps to install Arduino are provided at:
 
 https://www.arduino.cc/en/Main/Software
@@ -34,7 +45,7 @@ Download (or git pull) the code and double click the file to run the program.
 Compile and upload the code on Arduino IDE and see the output on Serial Monitor.
 
 How to Use the ADS1114 Arduino Library
-The ADS1114 has a number of seting, whic can be configured based upto user requirments.
+The ADS1114 has a number of settings, which can be configured based on user requirements.
 1. Gain Settings : ADS1114 supports upto 6 gain settings and these gain settings can be changed using this function
 
     ads.setGain(GAIN_TWO);          // 2x gain   +/- 2.048V  1 bit = 0.0625mV (default)
@@ -44,12 +55,12 @@ the mode of operation setting can be changed using this function
 
     ads.setMode(MODE_CONTIN);  
     
-3. Sample rate : ADS1114 supports upto 8 SMPS settings, these settings can be changed beased on number of sample required in a second. If you have a application where you need the data really quick in the minimum possible time you can use the higher number of samples setting. If you need high accuarcy data without any time constriant, in that case you can use low SMPS setting. In general application you can keep the SMPS number in middle.
+3. Sample rate : ADS1114 supports upto 8 SMPS settings, these settings can be changed based on number of sample required in a second. If you have a application where you need the data really quick in the minimum possible time you can use the higher number of samples setting. If you need high accuracy data without any time constraint, in that case you can use low SMPS setting. In general application you can keep the SMPS number in middle.
 You can change the SMSP using this function
 
     ads.setRate(RATE_128);
  
- Reading ADS1114 in diffrenetioal mode : To read the ADC input in differential mode you can use this function
+ Reading ADS1114 in differential mode : To read the ADC input in differential mode you can use this function
  
     result01 = ads.Measure_Differential(01);
     
@@ -59,5 +70,5 @@ You can change the SMSP using this function
  
     adc0 = ads.Measure_SingleEnded(0);
     
-  In this case it will read the voltage at ADC input channel 0 and at ADC input channel 1.
+  In this case it will read the voltage at ADC input channel 0 and at ADC input channel 1
   
