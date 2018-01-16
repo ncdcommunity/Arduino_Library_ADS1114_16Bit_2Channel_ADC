@@ -35,8 +35,11 @@ ADS1114 is a 2 Channel 16 bit resolution Analog to digital Converter. This ADC c
 The ADC board has 2 address jumpers, whihc can be used to set upto 4 different I2C addresses. 
 Applications
 • Force, flex, weight measurement devices
+
 • Battery Voltage and Current Monitoring
+
 • Temperature Measurement Systems
+
 • Factory Automation and Process Control
 
 
