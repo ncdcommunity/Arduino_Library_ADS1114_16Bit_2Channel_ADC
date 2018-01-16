@@ -3,8 +3,12 @@
 
 # ADS1114
 The ADS1114 16-Bit 2-Channel Precision Analog to Digital Converter I2C Mini Module.
-This Device is available from www.ncd.io [SKU: ADS1114]
+This Device is available from www.ncd.io 
+
+[SKU: ADS1114]
+
 (https://store.ncd.io/product/ads1114-16-bit-2-channel-precision-analog-to-digital-converter-i2c-mini-module/)
+
 This Sample code can be used with Arduino.
 
 Hardware needed to interface ADS1114 16-Bit 2-Channel Precision Analog to Digital Converter with Arduino
