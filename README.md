@@ -50,10 +50,14 @@ You can change the SMSP using this function
     ads.setRate(RATE_128);
  
  Reading ADS1114 in diffrenetioal mode : To read the ADC input in differential mode you can use this function
+ 
     result01 = ads.Measure_Differential(01);
+    
  In this setting you will need to connect your ADC input at channel 0 and channel 1. The ADS1114 will read the voltage difference between these two inputs.
  
  Reading ADS1114 In single ended Mode : To read the ADC input in single ended mode you can use this function
+ 
     adc0 = ads.Measure_SingleEnded(0);
+    
   In this case it will read the voltage at ADC input channel 0 and at ADC input channel 1.
   
