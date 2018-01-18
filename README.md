@@ -19,17 +19,7 @@ Hardware needed to interface ADS1114 16-Bit 2-Channel Precision Analog to Digita
 5. <a href="https://store.ncd.io/product/ads1114-16-bit-2-channel-precision-analog-to-digital-converter-i2c-mini-module/">ADS1114 16-Bit 2-Channel Precision Analog to Digital Converter</a>
 6. <a href="https://store.ncd.io/product/i%C2%B2c-cable/">I2C Cable</a>
 
-ADS1114 :
-ADS1114 is a 2 Channel 16 bit resultion Analog to digital Converter. This ADC can be used as dual singel ended analog to digital converter, signal channel differential analog to digital converter or singal channel comaparator. 
-The ADC board has 2 address jumpers, whihc can be used to set upto 4 different I2C addresses. 
-Applications
-• Force, flex, weight measurement devices
-• Battery Voltage and Current Monitoring
-• Temperature Measurement Systems
-• Factory Automation and Process Control
 
-
-## Arduino
 ADS1114 :
 ADS1114 is a 2 Channel 16 bit resolution Analog to digital Converter. This ADC can be used as dual single ended analog to digital converter, signal channel differential analog to digital converter or single channel comparator. 
 The ADC board has 2 address jumpers, whihc can be used to set upto 4 different I2C addresses. 
